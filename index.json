@@ -1,0 +1,39 @@
+{
+	"versionName": "1.1.11",         
+	"versionCode": 20,              
+	"versionFormat": "%versionName%",    
+	"variables": {                    
+		"testInt": 1000,
+		"testString": "abcde",
+		"testArray": [
+			1,
+			2,
+			3
+		],
+		"testData": {
+			"a": [
+				"111",
+				"222",
+				"333"
+			]
+		}
+	},
+	"welcomeMessage": ["", {            
+		"text": "Hello, welcome to UltiCraft",
+		"color": "gold"
+	}, {
+		"text": "MW!",
+		"color": "aqua"
+	}, {
+		"text": "\n"
+	}, {
+		"text": "Join our discord server!",
+		"bold": true,
+		"underlined": true,
+		"color": "blue",
+		"clickEvent": {
+			"action": "open_url",
+			"value": "https://discord.gg/XpHrKC2rwK"
+		}
+	}]
+}
